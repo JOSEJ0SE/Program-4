@@ -47,22 +47,22 @@ isleapyear = false;
 switch (month)
   {
   
-  case 1:
-  case 3:
-  case 5:
-  case 7:
-  case 8:
-  case 10:
-  case 12:
+  case 1://january
+  case 3://march
+  case 5://may
+  case 7://july
+  case 8://august
+  case 10://october
+  case 12://december
       days_in_month = 31;
       break;
-  case 4:
-  case 6:
-  case 9:
-  case 11:
+  case 4://april
+  case 6://june
+  case 9://september
+  case 11://november
       days_in_month = 30;
       break;
-  case 2:
+  case 2://february
       if (isleapyear)
       {
         days_in_month = 29;
